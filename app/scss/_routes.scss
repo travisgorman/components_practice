@@ -1,0 +1,42 @@
+ul {
+  background-color: $greenLight;
+  margin-left: 2rem;
+  background: rgb(160, 212, 104) none repeat scroll 0% 0%;
+  padding: 1.3rem;
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+.routes {
+  padding-left: 1.5rem;
+}
+  li.card-name {
+    background-color: $green;
+    list-style-type: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    h3 {
+      font-size: 1.5rem;
+      padding: 1.1rem;
+      &hover {
+        background-color: #80CBC4;
+      }
+      a:link {
+        list-style-type: none;
+      }
+    }
+  }
+  .side-link{
+    list-style-type: none;
+  }
+  .card-name {
+    border-radius: 8px;
+    &:hover {
+      background-color: $greenLight;
+    }
+  }
+li.card-name h3 a:link {
+  list-style-type: none;
+  text-decoration: none;
+  color: $white;
+
+
+}

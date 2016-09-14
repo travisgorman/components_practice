@@ -1,0 +1,32 @@
+nav {
+  padding: 2%;
+  background-color: $navy;
+  margin-bottom: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+&:after {
+  content: "";
+  display: block;
+  clear:both;
+}
+  a.link {
+    background-color: $yellow;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    color: $navy;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    color: #333;
+    &:hover {
+      background: $yellowHov;
+    }
+  }
+  a {
+    color: $dark;
+    text-decoration: none;
+  }
+}

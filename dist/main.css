@@ -1,0 +1,144 @@
+nav {
+  padding: 2%;
+  background-color: #2C3E50;
+  margin-bottom: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  nav:after {
+    content: "";
+    display: block;
+    clear: both; }
+  nav a.link {
+    background-color: #FFCE54;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    color: #2C3E50;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    color: #333; }
+    nav a.link:hover {
+      background: #FFDC87; }
+  nav a {
+    color: #434A54;
+    text-decoration: none; }
+
+.card {
+  background-color: #16A085;
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .card h2 {
+    padding-top: 1.4rem;
+    font-size: 2rem;
+    color: #F5F7FA;
+    display: block;
+    text-align: center; }
+  .card img {
+    width: 360px;
+    margin: 1rem;
+    border-radius: 100%;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16), 0 3px 9px rgba(0, 0, 0, 0.23); }
+  .card .cardStats {
+    background-color: #1ABC9C;
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.5rem; }
+    .card .cardStats p {
+      color: #F5F7FA; }
+    .card .cardStats span {
+      font-weight: bold;
+      color: #062B49; }
+
+ul {
+  background-color: #1ABC9C;
+  margin-left: 2rem;
+  background: #a0d468 none repeat scroll 0% 0%;
+  padding: 1.3rem;
+  padding-left: 1.5rem;
+  list-style-type: none; }
+
+.routes {
+  padding-left: 1.5rem; }
+
+li.card-name {
+  background-color: #16A085;
+  list-style-type: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  li.card-name h3 {
+    font-size: 1.5rem;
+    padding: 1.1rem; }
+    li.card-name h3hover {
+      background-color: #80CBC4; }
+    li.card-name h3 a:link {
+      list-style-type: none; }
+
+.side-link {
+  list-style-type: none; }
+
+.card-name {
+  border-radius: 8px; }
+  .card-name:hover {
+    background-color: #1ABC9C; }
+
+li.card-name h3 a:link {
+  list-style-type: none;
+  text-decoration: none;
+  color: #F5F7FA; }
+
+input.login-submit {
+  background-color: #D770AD; }
+  input.login-submit:hover {
+    background-color: #EC87C0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F7FA;
+  font-family: sans-serif; }
+
+h1 {
+  display: flex;
+  padding-left: 5rem; }
+
+.title {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold; }
+
+h3 .tag {
+  padding-left: 5rem; }
+
+ul {
+  float: left;
+  padding-left: 0.5rem;
+  margin-top: 0; }
+
+.login-form {
+  margin-top: 2rem;
+  width: 45%;
+  margin: 0 auto; }
+  .login-form input {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.login-input {
+  display: block;
+  padding: 3%;
+  width: 76%;
+  border: 0;
+  margin-bottom: 0.8rem;
+  background-color: #F2F2F2;
+  font-size: 1.3rem; }
+
+.login-submit {
+  width: 82%;
+  padding: 3%;
+  border: 0;
+  font-size: 1.3rem; }
+
+/*# sourceMappingURL=main.css.map */

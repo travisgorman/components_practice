@@ -1,0 +1,61 @@
+@import 'variables';
+@import 'nav';
+@import 'card';
+@import 'routes';
+@import 'login';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  font-family: sans-serif;
+}
+h1 {
+  display: flex;
+  padding-left: 5rem;
+}
+  .title {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  h3 {
+    .tag {
+      padding-left: 5rem;
+    }
+  }
+  ul {
+    float: left;
+    padding-left: 0.5rem;
+    margin-top: 0;
+  }
+  .login-form {
+    margin-top: 2rem;
+    width: 45%;
+    margin: 0 auto;
+    input {
+      // border: 1px solid $dark;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+  }
+    h2 {
+      // margin-left: 33%;
+    }
+
+    .login-input {
+      display: block;
+      padding: 3%;
+      width: 76%;
+      border: 0;
+      margin-bottom: 0.8rem;
+      background-color: #F2F2F2;
+      font-size: 1.3rem;
+    }
+
+    .login-submit {
+      width: 82%;
+      padding: 3%;
+      border: 0;
+      font-size: 1.3rem;
+    }
