@@ -1,7 +1,7 @@
 nav {
   padding: 2%;
   background-color: #2C3E50;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
   display: flex;
   justify-content: space-around;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
@@ -28,13 +28,13 @@ nav {
 
 .card {
   background-color: #16A085;
-  width: 400px;
+  width: 40% px;
   margin: 0px auto;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   .card h2 {
     padding-top: 1.4rem;
-    font-size: 2rem;
+    font-size: .8rem;
     color: #F5F7FA;
     display: block;
     text-align: center; }
@@ -45,9 +45,9 @@ nav {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16), 0 3px 9px rgba(0, 0, 0, 0.23); }
   .card .cardStats {
     background-color: #1ABC9C;
-    padding: 1.5rem;
+    padding: 1.2rem;
     text-align: left;
-    font-size: 1.5rem; }
+    font-size: .75rem; }
     .card .cardStats p {
       color: #F5F7FA; }
     .card .cardStats span {
@@ -70,7 +70,7 @@ li.card-name {
   list-style-type: none;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   li.card-name h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1.1rem; }
     li.card-name h3hover {
       background-color: #80CBC4; }
@@ -108,7 +108,7 @@ h1 {
 .title {
   margin-top: 2.5rem;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold; }
 
 h3 .tag {
@@ -133,12 +133,12 @@ ul {
   border: 0;
   margin-bottom: 0.8rem;
   background-color: #F2F2F2;
-  font-size: 1.3rem; }
+  font-size: 1rem; }
 
 .login-submit {
   width: 82%;
   padding: 3%;
   border: 0;
-  font-size: 1.3rem; }
+  font-size: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
