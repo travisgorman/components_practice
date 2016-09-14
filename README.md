@@ -1,17 +1,7 @@
-#Day 32  --First React Assignment
-
-#Trading Cards
-
-##Process
-1. Map out wireframes, user events, data models, and routes
-2. Break application into user functional components
-3. Code/hook up router with appropriate routes
-4. Code components to piece together main page
-
-##Troubleshooting
-1. Difficulty with rendering dynamic pieces of data to DOM with react
-2. Difficulty with linking dynamic IDs
-
-##How can it grow?
-1. Use backend application or API to render data from rather than using static data
-2. Make the forms actually submit information rather than just console logging
+#React Components Practice. 
+* Use Backbone Router and React Components along with React DOM to create a trading card app.
+* Create static data (just a plain array of objects you wrote) with at least 5 different objects, each having at least 5 properties.
+* Create a 'navigation' component and render it to the DOM. It should render links for each of your 'trading cards' as well as a link to the 'create new card' form (see below) and login/signup.
+* When a trading card route is hit, render a 'trading card' component to the DOM, using the relevant object from your data to fill in the dynamic pieces of the card.
+* When the 'create new card' route is hit, render a form that enables a user to enter information to create a new card.
+* When the 'login' or 'signup' routes are hit, appropriate form components should be rendered to the DOM.
